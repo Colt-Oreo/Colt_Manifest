@@ -20,6 +20,7 @@
 <project path="frameworks/base" name="Colt-Oreo/android_frameworks_base" remote="coltos" />
 <project path="packages/apps/Settings" name="Colt-Oreo/android_packages_apps_Settings" remote="coltos" />
 <project path="packages/apps/ColtCenter" name="Colt-Oreo/android_packages_apps_ColtCenter" remote="coltos" />
+<project path="packages/services/Telephony" name="Colt-Oreo/android_packages_services_Telephony" remote="coltos" />
 <project path="hardware/cyanogen" name="Colt-Oreo/android_hardware_colt" remote="coltos" />
 <project path="vendor/colt" name="Colt-Oreo/android_vendor_colt" remote="coltos" />
 <project path="bionic" name="Colt-Oreo/android_bionic" remote="coltos" />
