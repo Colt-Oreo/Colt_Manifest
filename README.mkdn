@@ -1,7 +1,7 @@
 ColtOS : Let's Get Started :)
 =============================
 
-![ColtOS](https://github.com/ColtOS/manifest/blob/cos7.x/colt_logo.gif)
+![ColtOS](https://github.com/Colt-Oreo/Colt_Manifest/blob/cos8.x/coltspray.gif)
 
 ColtOS Project
 ===============
@@ -15,6 +15,11 @@ ColtOS on Social Media
 
 -------
 * [**LineageOS/Cyanogenmod**](https://github.com/LineageOS)
+* [**DirtyUnicorns**](https://github.com/DirtyUnicorns)
+* [**Pure Nexus**](https://github.com/PureNexusProject)
+* [**ValidusOS**](https://github.com/ValidusOS)
+* [**OmniROM**](https://github.com/omnirom/)
+* [**AicpROM**](https://github.com/AICP/)
 -------
 
 How to Build?
