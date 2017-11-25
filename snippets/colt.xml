@@ -23,6 +23,7 @@
 <project path="packages/services/Telephony" name="Colt-Oreo/android_packages_services_Telephony" remote="coltos" />
 <project path="packages/services/OmniJaws" name="Colt-Oreo/android_packages_services_OmniJaws" remote="coltos" />
 <project path="hardware/cyanogen" name="Colt-Oreo/android_hardware_colt" remote="coltos" />
+<project path="system/core" name="Colt-Oreo/android_system_core" remote="coltos" />
 <project path="vendor/colt" name="Colt-Oreo/android_vendor_colt" remote="coltos" />
 <project path="bionic" name="Colt-Oreo/android_bionic" remote="coltos" />
 <project path="build/soong" name="Colt-Oreo/build_soong" groups="pdk,tradefed" remote="coltos" >
