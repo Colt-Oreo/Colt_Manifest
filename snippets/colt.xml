@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- ColtOS Repos -->
+
+<project path="android" name="Colt-Oreo/Colt_Manifest" remote="coltos" />
+
+  <project path="build/make" name="Colt-Oreo/android_build" remote="coltos" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="device/colt/sepolicy" name="Colt-Oreo/device_colt_sepolicy" remote="coltos" />
+  <project path="frameworks/base" name="Colt-Oreo/android_frameworks_base" remote="coltos" />
+  <project path="frameworks/av" name="Colt-Oreo/android_frameworks_av" remote="coltos" />
+  <project path="packages/apps/Settings" name="Colt-Oreo/android_packages_apps_Settings" remote="coltos" />		
+  <project path="packages/apps/ColtCenter" name="Colt-Oreo/android_packages_apps_ColtCenter" remote="coltos" />
+  <project path="packages/apps/SlimRecents" name="Colt-Oreo/android_packages_apps_SlimRecents" remote="coltos" />
+  <project path="packages/services/Telephony" name="Colt-Oreo/android_packages_services_Telephony" remote="coltos" />
+  <project path="packages/services/OmniJaws" name="Colt-Oreo/android_packages_services_OmniJaws" remote="coltos" />
+  <project path="hardware/cyanogen" name="Colt-Oreo/android_hardware_colt" remote="coltos" />
+  <project path="system/core" name="Colt-Oreo/android_system_core" remote="coltos" />
+  <project path="vendor/colt" name="Colt-Oreo/android_vendor_colt" remote="coltos" />
+  <project path="bionic" name="Colt-Oreo/android_bionic" remote="coltos" />
+
+
+  <project path="build/soong" name="Colt-Oreo/android_build_soong" groups="pdk,tradefed" remote="coltos" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+</manifest>
