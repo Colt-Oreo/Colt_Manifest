@@ -18,6 +18,7 @@
   <project path="device/colt/sepolicy" name="Colt-Oreo/device_colt_sepolicy" remote="coltos" />
   <project path="frameworks/base" name="Colt-Oreo/android_frameworks_base" remote="coltos" />
   <project path="frameworks/av" name="Colt-Oreo/android_frameworks_av" remote="coltos" />
+  <project path="frameworks/native" name="Colt-Oreo/android_frameworks_native" remote="coltos" />
   <project path="packages/apps/Settings" name="Colt-Oreo/android_packages_apps_Settings" remote="coltos" />		
   <project path="packages/apps/ColtCenter" name="Colt-Oreo/android_packages_apps_ColtCenter" remote="coltos" />
   <project path="packages/apps/SlimRecents" name="Colt-Oreo/android_packages_apps_SlimRecents" remote="coltos" />
