@@ -28,6 +28,7 @@
   <project path="system/core" name="Colt-Oreo/android_system_core" remote="coltos" />
   <project path="vendor/colt" name="Colt-Oreo/android_vendor_colt" remote="coltos" />
   <project path="bionic" name="Colt-Oreo/android_bionic" remote="coltos" />
+  <project path="lineage-sdk" name="Colt-Oreo/android_lineage-sdk" remote="coltos" />
 
 
   <project path="build/soong" name="Colt-Oreo/android_build_soong" groups="pdk,tradefed" remote="coltos" >
